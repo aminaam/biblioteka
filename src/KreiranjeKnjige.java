@@ -45,5 +45,10 @@ public class KreiranjeKnjige {
 	public void setStatusKnjige(boolean statusKnjige) {
 		this.statusKnjige = statusKnjige;
 	}
-
+	
+	public void ispis() {
+		System.out.println("Broj knjige: " + getBrojKnjige());
+		System.out.println("Ime knjige: " + getImeKnjige());
+		System.out.println("Status knjige: " + getStatusKnjige());
+	}
 }

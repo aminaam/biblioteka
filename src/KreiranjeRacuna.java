@@ -45,5 +45,11 @@ public class KreiranjeRacuna {
 	public void setBrojPosudjenihKnjiga(int brojPosudjenihKnjiga) {
 		this.brojPosudjenihKnjiga = brojPosudjenihKnjiga;
 	}
+	
+	public void ispis() {
+		System.out.println("Broj racuna musterije: " + getBrojRacuna());
+		System.out.println("Ime vlasnika racuna: " + getImeMusterije());
+		System.out.println("Broj posudjenih knjiga: " + getBrojPosudjenihKnjiga());
+	}
 
 }
